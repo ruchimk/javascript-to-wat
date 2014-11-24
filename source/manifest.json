@@ -3,11 +3,14 @@
   "name": "Javascript to Wat",
   "version": "2.0",
   "description": "Replaces the text 'javascript' with 'wat'.",
-  "content_scripts":
+  "icons": {
+    "128": "icon.png"
+  },
+"content_scripts":
   [
     {
       "matches": ["*://*/*"],
-      "js": ["content_script.js"],
+      "js": ["wat.js"],
       "run_at": "document_end"
     }
   ]
