@@ -7,7 +7,7 @@
   [
     {
       "matches": ["*://*/*"],
-      "js": ["content_script.js"],
+      "js": ["wat.js"],
       "run_at": "document_end"
     }
   ]
